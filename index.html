@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .container{
+                  display: flex;
+                }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="./index.js"></script>
+    
+  </head>
+
+  <body>
+    <div class="container" style = 'background-color: rgb(156, 70, 110)'>
+  
+      <div class="jumbotron" style = 'background-color: rgb(249, 252, 101)'>
+      <h2>CS437: IoT -- Lab 2</h2>
+
+      <!-- <video class="center" width="600" height="400" controls>
+        <source src="samplevid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>  -->
+      <img src="jesse.jpg" id="pics" style="width: 100%; max-width: 300px; height: auto; display: block; margin: auto;">
+    </div> 
+  
+  </div>
+
+  <div class="row">
+    <div class="container">
+        <div class="jumbotron text-center col-md-6" style='border: 3px solid rgb(106, 67, 138); background-color: rgb(53, 0, 70);'>
+          <span>&nbsp;&nbsp;</span> 
+          <span id="upArrow" style='border: 3px solid grey;font-size:70px; color:grey; font-weight: bold;'>&#8679;</span>
+          <br>
+          <span id="leftArrow" style='border: 3px solid grey;font-size:70px; color:grey; font-weight: bold;'>&#8678;</span>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+          <span id="rightArrow" style='border: 3px solid grey;font-size:70px; color:grey; font-weight: bold;'>&#8680;</span>
+          <br>
+          <span>&nbsp;&nbsp;</span> 
+          <span id="downArrow" style='border: 3px solid grey;font-size:70px; color:grey; font-weight: bold;'>&#8681;</span>
+          <br><br/>
+          <div id="stopBar" style="width: 100px; height: 20px; background-color: grey; margin: 10px auto; border-radius: 5px;"></div>
+        </div>
+        
+        <div class="jumbotron text-center col-md-6" style=" border: 3px solid rgb(85, 165, 141); background-color: rgb(0, 100, 75);display: flex; justify-content: center; align-items: center; ">
+          <p style="text-align: center; font-size: 30px; margin: 0;">
+            <span id="direction_dot" style="color:Green">&bull;</span> <span style="color:white"> CPU Temperature: </span> <span id="temperature" style="color:white";>0.0 </span>
+           <br><br>
+           <span id="speed_dot" style="color:green">&bull;</span> <span style="color:white"> Uptime: </span><span id="battery" style="color:white">0.0</span>  
+           <br><br>
+           <span id="distance_dot" style="color:green">&bull;</span> <span style="color:white"> Status: </span> <span id="movement_state" style="color:white">0.0</span>
+          </p>  
+        </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>
